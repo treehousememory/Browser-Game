@@ -1,0 +1,109 @@
+* {
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	overflow: scroll;
+	display: flex;
+	
+	
+	background-color: BLUE;
+	width: 100vw;
+	height: 100vh;
+}
+
+#sidemenu {
+	background-color: GREEN;
+	width: 15%;
+	height: 100%;
+	left: 0%;
+}
+
+#sidemenu img {
+	border-radius: 5px;
+	
+	position: relative;
+	
+	margin: 7px;
+	
+	/* top: 1vh;
+	left: 5%; */
+	
+	max-width: 45%;
+	max-height: 20%
+}
+
+#maindisplay {
+	position: absolute;
+	
+	top: 0%;
+	left: 15%;
+	width: 85%;
+	height: 100%;
+	background-color: WHITE;
+}
+
+#maindisplaybutton {
+	position: relative;
+	
+	top: 5%;
+	left: 5%;
+	height: 5%;
+	width: 7%;
+}	
+
+.button {
+	border: 2px solid BLACK;
+	border-radius: 5px;
+	cursor: pointer;
+    font-size: 100%;
+	
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+
+/* Button Section */
+
+#buttonsection {
+	display: grid;
+	
+	min-width: 100%;
+	width: 100%;
+	height: 20%;
+	top: 80%;
+	
+	grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+#buttonsection.actionbutton {
+	width: 20px;
+	height: 20px;
+	
+	border: solid BLACK 2px;
+	
+	
+	/* Getting shit to display in the center of a box */
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+
+
+
+
+
+
+
